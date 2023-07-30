@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="52.59" tests="4" skipped="0" failures="1" errors="0">
+<testcase classname="Facebook login Test" name="Test facebook login functionality" time="25.53">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When Enter username and password............................................passed
+And click on login button...................................................passed
+Then user should land on home page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Facebook login Test" name="Test facebook login functionality1" time="11.853">
+<system-out><![CDATA[
+Given user is on login page.................................................passed
+When Enter username and password............................................passed
+And click on login button...................................................passed
+Then user should land on home page..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test Facebook login1" name="Test facebook login functionality" time="11.151">
+<system-out><![CDATA[
+Given user is on login page1................................................passed
+When Enter1 "prakash13k@gmail.com" and "Drithika@123".......................passed
+And click on login button1..................................................passed
+Then user should land on home page1.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Test login functionality of facebook login2" name="Test functionality of facebook - Example #1.1" time="3.38">
+<failure/>
+<system-out><![CDATA[
+Given user is on login page2................................................passed
+When Enter2 <username> and <password>.......................................undefined
+And click on login button2..................................................skipped
+Then user should land on home page2.........................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
